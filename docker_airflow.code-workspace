@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../docker_airflow"
+		},
+		{
+			"path": "../My-Test-Remote-Repo"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
