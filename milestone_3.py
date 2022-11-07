@@ -18,5 +18,4 @@ def check_guess():
         else:
             print("Not singular character input or guessed letter is not in the word. Try again.")   
 
-check_guess()            
-    
+check_guess() 
