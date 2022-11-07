@@ -5,5 +5,3 @@ while True:
     else:
         print("Invalid letter. Please, enter a single alphabectical character.")
 
-
-        
