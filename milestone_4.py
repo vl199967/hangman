@@ -1,5 +1,3 @@
-
-import milestone_3 as ms3
 import random
 
 class Hangman():
@@ -18,14 +16,22 @@ class Hangman():
 
     def ask_for_input(self):
         while True:
+            print(self.word)
             guess = input("guess one letter!")
             if not (guess.isalpha() and len(guess)==1):
                 print("Invalid letter. Please, enter a single alphabetical character.")
             elif guess in self.list_of_guesses:
                 print("you already tried that letter!")
             else:
-                self.check_guess(self,guess)
+                self.check_guess(guess)
                 self.list_of_guesses.append(guess)        
+
+worz = ['mango','custard apple','lychee','orange','banana']
+
+hg = Hangman(worz)
+
+hg.ask_for_input()
+
 
 
 
