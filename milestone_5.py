@@ -3,7 +3,7 @@ import milestone_4 as ms4
 worz = ['mango','pear','grape','orange','nectarine']
 
 def play_game(word_list):
-    game = ms4.Hangman(word_list)
+    game = ms4.Hangman(word_list,num_lives=5)
     while True:
         if game.num_lives == 0:
             print("You lost!")
