@@ -37,12 +37,6 @@ class Hangman():
                 self.check_guess(guess)
                 self.list_of_guesses.append(guess)        
 
-worz = ['mango','custard apple','lychee','orange','banana']
-
-hg = Hangman(worz)
-
-hg.ask_for_input()
-
 
 
 
